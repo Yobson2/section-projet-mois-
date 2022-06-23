@@ -1,0 +1,243 @@
+body,*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+/* mise en forme de l'entete */
+.tete{
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+.sous_tete1{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-large; 
+  margin-right: 700px; 
+}
+.nav{
+    margin-top: 20px;
+    position: relative;
+}
+ul{
+   display: flex;
+   list-style: none;
+}
+li{
+   justify-content: space-around;
+}
+.liens{
+text-decoration: none;
+font-size: x-large;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 40px;
+}
+.liens:hover{
+    border: 0.2px solid black;
+    border-radius: 0.4rem;
+    background-color: beige;
+    color: #333;
+    padding: 10px;
+}
+.image1{
+    position: relative;
+}
+#image{
+    width: 100%;
+    height: 86vh;
+    object-fit: cover;
+    position: relative;
+
+}
+.titre{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: xx-large;
+    color: oldlace;
+    opacity: 0.6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sous_h1{
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 20px;
+}
+#button{
+    width: 200px;
+    height: 50px;
+    margin-left: 300px;
+    margin-top: 20px;
+    border-radius: 0.5rem;
+    border: transparent;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+#button:hover{
+    background-color:#333;
+}
+
+/* mise en forme du corps */
+.second{
+    margin-top: 30px;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.text{
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+.second_sous{
+    margin-top: 50px;
+}
+.second_sous2{
+    margin-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#sous_text{
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ul2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+.sous22{
+    margin-top: 100px;
+    text-align: center;
+}
+.span1{
+    font-size: 100px;
+    color: blue;
+}
+.span2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+
+
+/* mise en forme de la section1 */
+.section1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+   flex-wrap: wrap;
+}
+h2{
+    margin-top: 30px;
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card1,.card2,.card3{
+    width: 400px;
+    margin-left: 10px;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   justify-content: space-around;
+   text-align: center;
+}
+.btn{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 30px;
+    border-radius: 0.1rem;
+    border: 0.3px solid black;
+}
+.btn:hover{
+    background-color: aqua;
+}
+
+/* mise en forme de la section2 */
+
+.section2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+   text-align: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+#txt{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cardre1,.cardre2,.cardre3{
+    width: 400px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-around;
+   text-align: center;
+    
+}
+
+/* mise en forme du footer */
+footer{
+    display: flex;
+    position: absolute;
+    background-color: #333;
+    width: 100%;
+    justify-content: space-around;
+}
+.bloc2{
+    margin-top: 20px;
+}
+#text{
+    width: 300px;
+    height: 30px;
+}
+#message{
+    width: 300px;
+    margin-top: 20px;
+    height: 90px;
+}
+.p{
+    margin-left: 79px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menu{
+    font-size: large;
+    text-decoration: none;
+    color: azure;
+}
+
+
+/* responsibilite de la page */
+
+@media screen and (min-width: 1478px) {
+    /* mise en forme de l'entete */
+    #image{
+        width: 100%;
+        height: 86vh;
+        object-fit: cover;
+        position: relative;
+    
+    }
+    #image{
+        width: 100%;
+        height: 86vh;
+        object-fit: cover;
+        position: relative;
+    
+    }
+    h2{
+        text-align: center;
+    }
+    
+  }

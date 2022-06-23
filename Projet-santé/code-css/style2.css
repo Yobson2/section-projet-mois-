@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/Images/R\ \(4\).jpg); 
+    width: 100%;
+}
+header{
+    width: 100%;
+    display: flex;
+    background-color: honeydew;
+    height: 60px;
+    justify-content: space-around;
+}
+h1{
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu1{
+    list-style: none;
+}
+.menu1 li,a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+h4{
+    text-align: center;
+    font-size: x-large;
+}
+p,li{
+    font-size: large;
+    color: black;
+}
+.conct{
+    height: 40px;
+    width: 140px;
+    border-radius: 0.5rem;
+    opacity: 0.7;
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+.but_div{
+    text-align: center;
+}
+.conct:hover{
+    background-color: cornsilk;
+}
+section{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* mise en forme du footer */
+footer{
+    display: flex;
+    background-color: #333;
+    width: 100%;
+    justify-content: space-around;
+}
+.bloc2{
+    margin-top: 10px;
+}
+#text{
+    width: 300px;
+    height: 30px;
+}
+#message{
+    width: 300px;
+    margin-top: 20px;
+    height: 90px;
+}
+.p{
+    margin-left: 93px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menu{
+    font-size: large;
+    text-decoration: none;
+    color: azure;
+}
+.ul2{
+    display: flex;
+    list-style: none;
+}
+h4{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
